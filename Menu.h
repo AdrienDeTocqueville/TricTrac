@@ -37,6 +37,7 @@ class Menu : public Script
             if (!Input::hasFocus())
                 return;
 
+                /*
             if (Input::getMouseDown(sf::Mouse::Left))
                 std::cout << 1  << "  " ;
             else
@@ -50,16 +51,17 @@ class Menu : public Script
                 std::cout << "Released" ;
 
                 std::cout << std::endl;
+                */
 
-//            if (Input::getKeyDown(sf::Keyboard::L) || Input::getMousePressed(sf::Mouse::Left))
-//            {
-//                std::cout << "Starting local game" << std::endl;
-//
-//                Entity::findByTag("Table")->insert<GameManager>();
-//
-//                getEntity()->destroy();
-//                return;
-//            }
+            if (Input::getKeyDown(sf::Keyboard::L) || Input::getMousePressed(sf::Mouse::Left))
+            {
+                std::cout << "Starting local game" << std::endl;
+
+                Entity::findByTag("Table")->insert<Board>();
+
+                getEntity()->destroy();
+                return;
+            }
 //            if (Input::getKeyDown(sf::Keyboard::J) || Input::getMousePressed(sf::Mouse::Right))
 //            {
 //                Entity::create("Player", true, vec3(0, 0, 4.0f), vec3(0, 0, PI), vec3(0.4f))

@@ -1502,3 +1502,1897 @@
 	"Server.h"
 	"RemotePlayer.h"
 
+1569468352 source:c:\users\otarie\documents\programs\trictrac\board.cpp
+	"Board.h"
+	"Dice.h"
+
+1569468352 c:\users\otarie\documents\programs\trictrac\board.h
+	"Emplacements.h"
+	"Piece.h"
+
+1569468352 c:\users\otarie\documents\programs\trictrac\emplacements.h
+	<MinGE.h>
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\minge.h
+	<memory>
+	"includes.h"
+	"Engine.h"
+	"Entity.h"
+	"Assets/Material.h"
+	"Assets/Program.h"
+	"Assets/Texture.h"
+	"Components/AudioListener.h"
+	"Components/Transform.h"
+	"Components/RigidBody.h"
+	"Components/Animator.h"
+	"Components/Graphic.h"
+	"Components/Camera.h"
+	"Components/Skybox.h"
+	"Components/Script.h"
+	"Components/Light.h"
+	"Components/Cylinder.h"
+	"Components/Sphere.h"
+	"Components/Cone.h"
+	"Components/Box.h"
+	"Meshes/AnimatedModel.h"
+	"Meshes/Terrain.h"
+	"Meshes/Model.h"
+	"Physic/DistanceConstraint.h"
+	"Physic/ContactConstraint.h"
+	"Physic/Constraint.h"
+	"Utility/FileReader.h"
+	"Utility/Network.h"
+	"Utility/Random.h"
+	"Utility/Input.h"
+	"Utility/Debug.h"
+	"Utility/Time.h"
+	"Utility/Tag.h"
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\includes.h
+	<GL/glew.h>
+	<SFML/System.hpp>
+	<iostream>
+	<sstream>
+	<string>
+	<unordered_map>
+	<vector>
+	<list>
+	<map>
+	<glm/glm.hpp>
+	<glm/gtc/epsilon.hpp>
+	<glm/gtx/quaternion.hpp>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\system.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Err.hpp>
+	<SFML/System/FileInputStream.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/MemoryInputStream.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Utf.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1539639088 c:\users\otarie\documents\sfml-2.5.1\include\sfml\config.hpp
+	"TargetConditionals.h"
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\system\clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\system\export.hpp
+	<SFML/Config.hpp>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\system\time.hpp
+	<SFML/System/Export.hpp>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\system\err.hpp
+	<SFML/System/Export.hpp>
+	<ostream>
+
+1539639088 c:\users\otarie\documents\sfml-2.5.1\include\sfml\system\fileinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdio>
+	<string>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\system\inputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\system\noncopyable.hpp
+	<SFML/System/Export.hpp>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\system\lock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\system\memoryinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Export.hpp>
+	<cstdlib>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\system\mutex.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\system\sleep.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\system\string.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Utf.hpp>
+	<iterator>
+	<locale>
+	<string>
+	<SFML/System/String.inl>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\system\utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\system\utf.inl
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\system\string.inl
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\system\thread.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+	<SFML/System/Thread.inl>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\system\thread.inl
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\system\threadlocal.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\system\threadlocalptr.hpp
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.inl>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\system\threadlocalptr.inl
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\system\vector2.inl
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\system\vector3.inl
+
+1536015770 c:\users\otarie\documents\glm\glm\glm.hpp
+	"detail/_fixes.hpp"
+	"detail/setup.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\detail\_fixes.hpp
+	<cmath>
+
+1567863253 c:\users\otarie\documents\glm\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+	<CL/sycl.hpp>
+	<limits>
+	<cstdint>
+	<type_traits>
+
+1567863194 c:\users\otarie\documents\glm\glm\simd\platform.h
+	<cuda.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+	<arm_neon.h>
+
+1567842339 c:\users\otarie\documents\glm\glm\fwd.hpp
+	"detail/qualifier.hpp"
+
+1567850779 c:\users\otarie\documents\glm\glm\detail\qualifier.hpp
+	"setup.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\vec2.hpp
+	"./ext/vector_bool2.hpp"
+	"./ext/vector_bool2_precision.hpp"
+	"./ext/vector_float2.hpp"
+	"./ext/vector_float2_precision.hpp"
+	"./ext/vector_double2.hpp"
+	"./ext/vector_double2_precision.hpp"
+	"./ext/vector_int2.hpp"
+	"./ext/vector_int2_precision.hpp"
+	"./ext/vector_uint2.hpp"
+	"./ext/vector_uint2_precision.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\vector_bool2.hpp
+	"../detail/type_vec2.hpp"
+
+1539733378 c:\users\otarie\documents\glm\glm\detail\type_vec2.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1536015770 c:\users\otarie\documents\glm\glm\detail\_swizzle.hpp
+
+1536015770 c:\users\otarie\documents\glm\glm\detail\_swizzle_func.hpp
+
+1539733378 c:\users\otarie\documents\glm\glm\detail\type_vec2.inl
+	"./compute_vector_relational.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\detail\compute_vector_relational.hpp
+	"setup.hpp"
+	<limits>
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\vector_bool2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\vector_float2.hpp
+	"../detail/type_vec2.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\vector_float2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\vector_double2.hpp
+	"../detail/type_vec2.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\vector_double2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\vector_int2.hpp
+	"../detail/type_vec2.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\vector_int2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\vector_uint2.hpp
+	"../detail/type_vec2.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\vector_uint2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\vec3.hpp
+	"./ext/vector_bool3.hpp"
+	"./ext/vector_bool3_precision.hpp"
+	"./ext/vector_float3.hpp"
+	"./ext/vector_float3_precision.hpp"
+	"./ext/vector_double3.hpp"
+	"./ext/vector_double3_precision.hpp"
+	"./ext/vector_int3.hpp"
+	"./ext/vector_int3_precision.hpp"
+	"./ext/vector_uint3.hpp"
+	"./ext/vector_uint3_precision.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\vector_bool3.hpp
+	"../detail/type_vec3.hpp"
+
+1567842339 c:\users\otarie\documents\glm\glm\detail\type_vec3.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1539733378 c:\users\otarie\documents\glm\glm\detail\type_vec3.inl
+	"compute_vector_relational.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\vector_bool3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\vector_float3.hpp
+	"../detail/type_vec3.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\vector_float3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\vector_double3.hpp
+	"../detail/type_vec3.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\vector_double3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\vector_int3.hpp
+	"../detail/type_vec3.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\vector_int3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\vector_uint3.hpp
+	"../detail/type_vec3.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\vector_uint3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\vec4.hpp
+	"./ext/vector_bool4.hpp"
+	"./ext/vector_bool4_precision.hpp"
+	"./ext/vector_float4.hpp"
+	"./ext/vector_float4_precision.hpp"
+	"./ext/vector_double4.hpp"
+	"./ext/vector_double4_precision.hpp"
+	"./ext/vector_int4.hpp"
+	"./ext/vector_int4_precision.hpp"
+	"./ext/vector_uint4.hpp"
+	"./ext/vector_uint4_precision.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\vector_bool4.hpp
+	"../detail/type_vec4.hpp"
+
+1567842339 c:\users\otarie\documents\glm\glm\detail\type_vec4.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1539733378 c:\users\otarie\documents\glm\glm\detail\type_vec4.inl
+	"compute_vector_relational.hpp"
+	"type_vec4_simd.inl"
+
+1567850779 c:\users\otarie\documents\glm\glm\detail\type_vec4_simd.inl
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\vector_bool4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\vector_float4.hpp
+	"../detail/type_vec4.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\vector_float4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\vector_double4.hpp
+	"../detail/type_vec4.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\vector_double4_precision.hpp
+	"../detail/setup.hpp"
+	"../detail/type_vec4.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\vector_int4.hpp
+	"../detail/type_vec4.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\vector_int4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\vector_uint4.hpp
+	"../detail/type_vec4.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\vector_uint4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\mat2x2.hpp
+	"./ext/matrix_double2x2.hpp"
+	"./ext/matrix_double2x2_precision.hpp"
+	"./ext/matrix_float2x2.hpp"
+	"./ext/matrix_float2x2_precision.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\matrix_double2x2.hpp
+	"../detail/type_mat2x2.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\detail\type_mat2x2.hpp
+	"type_vec2.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1536015770 c:\users\otarie\documents\glm\glm\detail\type_mat2x2.inl
+	"../matrix.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\matrix.hpp
+	"detail/qualifier.hpp"
+	"detail/setup.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"detail/func_matrix.inl"
+
+1536015770 c:\users\otarie\documents\glm\glm\mat2x3.hpp
+	"./ext/matrix_double2x3.hpp"
+	"./ext/matrix_double2x3_precision.hpp"
+	"./ext/matrix_float2x3.hpp"
+	"./ext/matrix_float2x3_precision.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\matrix_double2x3.hpp
+	"../detail/type_mat2x3.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\detail\type_mat2x3.hpp
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1536015770 c:\users\otarie\documents\glm\glm\detail\type_mat2x3.inl
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\matrix_double2x3_precision.hpp
+	"../detail/type_mat2x3.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\matrix_float2x3.hpp
+	"../detail/type_mat2x3.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\matrix_float2x3_precision.hpp
+	"../detail/type_mat2x3.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\mat2x4.hpp
+	"./ext/matrix_double2x4.hpp"
+	"./ext/matrix_double2x4_precision.hpp"
+	"./ext/matrix_float2x4.hpp"
+	"./ext/matrix_float2x4_precision.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\matrix_double2x4.hpp
+	"../detail/type_mat2x4.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\detail\type_mat2x4.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1536015770 c:\users\otarie\documents\glm\glm\detail\type_mat2x4.inl
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\matrix_double2x4_precision.hpp
+	"../detail/type_mat2x4.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\matrix_float2x4.hpp
+	"../detail/type_mat2x4.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\matrix_float2x4_precision.hpp
+	"../detail/type_mat2x4.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\mat3x2.hpp
+	"./ext/matrix_double3x2.hpp"
+	"./ext/matrix_double3x2_precision.hpp"
+	"./ext/matrix_float3x2.hpp"
+	"./ext/matrix_float3x2_precision.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\matrix_double3x2.hpp
+	"../detail/type_mat3x2.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\detail\type_mat3x2.hpp
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1536015770 c:\users\otarie\documents\glm\glm\detail\type_mat3x2.inl
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\matrix_double3x2_precision.hpp
+	"../detail/type_mat3x2.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\matrix_float3x2.hpp
+	"../detail/type_mat3x2.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\matrix_float3x2_precision.hpp
+	"../detail/type_mat3x2.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\mat3x3.hpp
+	"./ext/matrix_double3x3.hpp"
+	"./ext/matrix_double3x3_precision.hpp"
+	"./ext/matrix_float3x3.hpp"
+	"./ext/matrix_float3x3_precision.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\matrix_double3x3.hpp
+	"../detail/type_mat3x3.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\detail\type_mat3x3.hpp
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1536015770 c:\users\otarie\documents\glm\glm\detail\type_mat3x3.inl
+	"../matrix.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\matrix_double3x3_precision.hpp
+	"../detail/type_mat3x3.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\matrix_float3x3.hpp
+	"../detail/type_mat3x3.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\matrix_float3x3_precision.hpp
+	"../detail/type_mat3x3.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\mat3x4.hpp
+	"./ext/matrix_double3x4.hpp"
+	"./ext/matrix_double3x4_precision.hpp"
+	"./ext/matrix_float3x4.hpp"
+	"./ext/matrix_float3x4_precision.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\matrix_double3x4.hpp
+	"../detail/type_mat3x4.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\detail\type_mat3x4.hpp
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1536015770 c:\users\otarie\documents\glm\glm\detail\type_mat3x4.inl
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\matrix_double3x4_precision.hpp
+	"../detail/type_mat3x4.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\matrix_float3x4.hpp
+	"../detail/type_mat3x4.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\matrix_float3x4_precision.hpp
+	"../detail/type_mat3x4.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\mat4x2.hpp
+	"./ext/matrix_double4x2.hpp"
+	"./ext/matrix_double4x2_precision.hpp"
+	"./ext/matrix_float4x2.hpp"
+	"./ext/matrix_float4x2_precision.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\matrix_double4x2.hpp
+	"../detail/type_mat4x2.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\detail\type_mat4x2.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1536015770 c:\users\otarie\documents\glm\glm\detail\type_mat4x2.inl
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\matrix_double4x2_precision.hpp
+	"../detail/type_mat4x2.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\matrix_float4x2.hpp
+	"../detail/type_mat4x2.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\matrix_float4x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\mat4x3.hpp
+	"./ext/matrix_double4x3.hpp"
+	"./ext/matrix_double4x3_precision.hpp"
+	"./ext/matrix_float4x3.hpp"
+	"./ext/matrix_float4x3_precision.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\matrix_double4x3.hpp
+	"../detail/type_mat4x3.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\detail\type_mat4x3.hpp
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1567842339 c:\users\otarie\documents\glm\glm\detail\type_mat4x3.inl
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\matrix_double4x3_precision.hpp
+	"../detail/type_mat4x3.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\matrix_float4x3.hpp
+	"../detail/type_mat4x3.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\matrix_float4x3_precision.hpp
+	"../detail/type_mat4x3.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\mat4x4.hpp
+	"./ext/matrix_double4x4.hpp"
+	"./ext/matrix_double4x4_precision.hpp"
+	"./ext/matrix_float4x4.hpp"
+	"./ext/matrix_float4x4_precision.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\matrix_double4x4.hpp
+	"../detail/type_mat4x4.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\detail\type_mat4x4.hpp
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1536015770 c:\users\otarie\documents\glm\glm\detail\type_mat4x4.inl
+	"../matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1536015770 c:\users\otarie\documents\glm\glm\detail\type_mat4x4_simd.inl
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\matrix_double4x4_precision.hpp
+	"../detail/type_mat4x4.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\matrix_float4x4.hpp
+	"../detail/type_mat4x4.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\matrix_float4x4_precision.hpp
+	"../detail/type_mat4x4.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1536015770 c:\users\otarie\documents\glm\glm\geometric.hpp
+	"detail/type_vec3.hpp"
+	"detail/func_geometric.inl"
+
+1536015770 c:\users\otarie\documents\glm\glm\detail\func_geometric.inl
+	"../exponential.hpp"
+	"../common.hpp"
+	"func_geometric_simd.inl"
+
+1536015770 c:\users\otarie\documents\glm\glm\exponential.hpp
+	"detail/type_vec1.hpp"
+	"detail/type_vec2.hpp"
+	"detail/type_vec3.hpp"
+	"detail/type_vec4.hpp"
+	<cmath>
+	"detail/func_exponential.inl"
+
+1539733378 c:\users\otarie\documents\glm\glm\detail\type_vec1.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1539733378 c:\users\otarie\documents\glm\glm\detail\type_vec1.inl
+	"./compute_vector_relational.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\detail\func_exponential.inl
+	"../vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1536015770 c:\users\otarie\documents\glm\glm\vector_relational.hpp
+	"detail/qualifier.hpp"
+	"detail/setup.hpp"
+	"detail/func_vector_relational.inl"
+
+1536015770 c:\users\otarie\documents\glm\glm\detail\func_vector_relational.inl
+	"func_vector_relational_simd.inl"
+
+1536015770 c:\users\otarie\documents\glm\glm\detail\func_vector_relational_simd.inl
+
+1567842339 c:\users\otarie\documents\glm\glm\detail\_vectorize.hpp
+
+1536015770 c:\users\otarie\documents\glm\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1536013586 c:\users\otarie\documents\glm\glm\simd\exponential.h
+	"platform.h"
+
+1567842339 c:\users\otarie\documents\glm\glm\common.hpp
+	"detail/qualifier.hpp"
+	"detail/_fixes.hpp"
+	"detail/func_common.inl"
+
+1567842339 c:\users\otarie\documents\glm\glm\detail\func_common.inl
+	"../vector_relational.hpp"
+	"compute_common.hpp"
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1536015770 c:\users\otarie\documents\glm\glm\detail\compute_common.hpp
+	"setup.hpp"
+	<limits>
+
+1536015770 c:\users\otarie\documents\glm\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1567842339 c:\users\otarie\documents\glm\glm\simd\common.h
+	"platform.h"
+
+1502891530 c:\users\otarie\documents\glm\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1525776867 c:\users\otarie\documents\glm\glm\simd\geometric.h
+	"common.h"
+
+1536015770 c:\users\otarie\documents\glm\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"../geometric.hpp"
+	"../simd/matrix.h"
+	<cstring>
+
+1525776867 c:\users\otarie\documents\glm\glm\simd\matrix.h
+	"geometric.h"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\matrix_double2x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\matrix_float2x2.hpp
+	"../detail/type_mat2x2.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\matrix_float2x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\trigonometric.hpp
+	"detail/setup.hpp"
+	"detail/qualifier.hpp"
+	"detail/func_trigonometric.inl"
+
+1536015770 c:\users\otarie\documents\glm\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1483569763 c:\users\otarie\documents\glm\glm\detail\func_trigonometric_simd.inl
+
+1536015770 c:\users\otarie\documents\glm\glm\packing.hpp
+	"./ext/vector_uint2.hpp"
+	"./ext/vector_float2.hpp"
+	"./ext/vector_float4.hpp"
+	"detail/func_packing.inl"
+
+1536015770 c:\users\otarie\documents\glm\glm\detail\func_packing.inl
+	"../common.hpp"
+	"type_half.hpp"
+	"func_packing_simd.inl"
+
+1536015770 c:\users\otarie\documents\glm\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1567842339 c:\users\otarie\documents\glm\glm\detail\type_half.inl
+
+1536015770 c:\users\otarie\documents\glm\glm\detail\func_packing_simd.inl
+
+1536015770 c:\users\otarie\documents\glm\glm\integer.hpp
+	"detail/qualifier.hpp"
+	"common.hpp"
+	"vector_relational.hpp"
+	"detail/func_integer.inl"
+
+1567864054 c:\users\otarie\documents\glm\glm\detail\func_integer.inl
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1536015770 c:\users\otarie\documents\glm\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1525776867 c:\users\otarie\documents\glm\glm\simd\integer.h
+
+1536013586 c:\users\otarie\documents\glm\glm\gtc\epsilon.hpp
+	"../detail/setup.hpp"
+	"../detail/qualifier.hpp"
+	"epsilon.inl"
+
+1536015770 c:\users\otarie\documents\glm\glm\gtc\epsilon.inl
+	"../vector_relational.hpp"
+	"../common.hpp"
+
+1567842339 c:\users\otarie\documents\glm\glm\gtx\quaternion.hpp
+	"../glm.hpp"
+	"../gtc/constants.hpp"
+	"../gtc/quaternion.hpp"
+	"../ext/quaternion_exponential.hpp"
+	"../gtx/norm.hpp"
+	"quaternion.inl"
+
+1536015770 c:\users\otarie\documents\glm\glm\gtc\constants.hpp
+	"../ext/scalar_constants.hpp"
+	"constants.inl"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\scalar_constants.hpp
+	"../detail/setup.hpp"
+	"scalar_constants.inl"
+
+1567842339 c:\users\otarie\documents\glm\glm\ext\scalar_constants.inl
+	<limits>
+
+1536015770 c:\users\otarie\documents\glm\glm\gtc\constants.inl
+
+1536015770 c:\users\otarie\documents\glm\glm\gtc\quaternion.hpp
+	"../gtc/constants.hpp"
+	"../gtc/matrix_transform.hpp"
+	"../ext/vector_relational.hpp"
+	"../ext/quaternion_common.hpp"
+	"../ext/quaternion_float.hpp"
+	"../ext/quaternion_float_precision.hpp"
+	"../ext/quaternion_double.hpp"
+	"../ext/quaternion_double_precision.hpp"
+	"../ext/quaternion_relational.hpp"
+	"../ext/quaternion_geometric.hpp"
+	"../ext/quaternion_trigonometric.hpp"
+	"../ext/quaternion_transform.hpp"
+	"../detail/type_mat3x3.hpp"
+	"../detail/type_mat4x4.hpp"
+	"../detail/type_vec3.hpp"
+	"../detail/type_vec4.hpp"
+	"quaternion.inl"
+
+1536015770 c:\users\otarie\documents\glm\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../ext/matrix_projection.hpp"
+	"../ext/matrix_clip_space.hpp"
+	"../ext/matrix_transform.hpp"
+	"matrix_transform.inl"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\matrix_projection.hpp
+	"../gtc/constants.hpp"
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+	"matrix_projection.inl"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\matrix_projection.inl
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\matrix_clip_space.hpp
+	"../ext/scalar_constants.hpp"
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"matrix_clip_space.inl"
+
+1567842339 c:\users\otarie\documents\glm\glm\ext\matrix_clip_space.inl
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\matrix_transform.hpp
+	"../gtc/constants.hpp"
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+	"matrix_transform.inl"
+
+1567842339 c:\users\otarie\documents\glm\glm\ext\matrix_transform.inl
+
+1536015770 c:\users\otarie\documents\glm\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1567872587 c:\users\otarie\documents\glm\glm\ext\vector_relational.hpp
+	"../detail/qualifier.hpp"
+	"vector_relational.inl"
+
+1539733379 c:\users\otarie\documents\glm\glm\ext\vector_relational.inl
+	"../vector_relational.hpp"
+	"../common.hpp"
+	"../detail/qualifier.hpp"
+	"../detail/type_float.hpp"
+
+1539733378 c:\users\otarie\documents\glm\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\quaternion_common.hpp
+	"../ext/scalar_constants.hpp"
+	"../ext/quaternion_geometric.hpp"
+	"../common.hpp"
+	"../trigonometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_common.inl"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\quaternion_geometric.hpp
+	"../geometric.hpp"
+	"../exponential.hpp"
+	"../ext/vector_relational.hpp"
+	"quaternion_geometric.inl"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\quaternion_geometric.inl
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\quaternion_common.inl
+	"quaternion_common_simd.inl"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\quaternion_common_simd.inl
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\quaternion_float.hpp
+	"../detail/type_quat.hpp"
+
+1567851310 c:\users\otarie\documents\glm\glm\detail\type_quat.hpp
+	"../detail/type_mat3x3.hpp"
+	"../detail/type_mat4x4.hpp"
+	"../detail/type_vec3.hpp"
+	"../detail/type_vec4.hpp"
+	"../ext/vector_relational.hpp"
+	"../ext/quaternion_relational.hpp"
+	"../gtc/constants.hpp"
+	"../gtc/matrix_transform.hpp"
+	"type_quat.inl"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\quaternion_relational.hpp
+	"../vector_relational.hpp"
+	"quaternion_relational.inl"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\quaternion_relational.inl
+
+1567954624 c:\users\otarie\documents\glm\glm\detail\type_quat.inl
+	"../trigonometric.hpp"
+	"../exponential.hpp"
+	"../ext/quaternion_geometric.hpp"
+	<limits>
+	"type_quat_simd.inl"
+
+1536015770 c:\users\otarie\documents\glm\glm\detail\type_quat_simd.inl
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\quaternion_float_precision.hpp
+	"../detail/type_quat.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\quaternion_double.hpp
+	"../detail/type_quat.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\quaternion_double_precision.hpp
+	"../detail/type_quat.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\quaternion_trigonometric.hpp
+	"../trigonometric.hpp"
+	"../exponential.hpp"
+	"scalar_constants.hpp"
+	"vector_relational.hpp"
+	<limits>
+	"quaternion_trigonometric.inl"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\quaternion_trigonometric.inl
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\quaternion_transform.hpp
+	"../common.hpp"
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"quaternion_transform.inl"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\quaternion_transform.inl
+
+1536015770 c:\users\otarie\documents\glm\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	"epsilon.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1536015770 c:\users\otarie\documents\glm\glm\gtc\quaternion_simd.inl
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\quaternion_exponential.hpp
+	"../common.hpp"
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../ext/scalar_constants.hpp"
+	"quaternion_exponential.inl"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\quaternion_exponential.inl
+
+1567851401 c:\users\otarie\documents\glm\glm\gtx\norm.hpp
+	"../geometric.hpp"
+	"../gtx/quaternion.hpp"
+	"../gtx/component_wise.hpp"
+	"norm.inl"
+
+1567842339 c:\users\otarie\documents\glm\glm\gtx\component_wise.hpp
+	"../detail/setup.hpp"
+	"../detail/qualifier.hpp"
+	"component_wise.inl"
+
+1536015770 c:\users\otarie\documents\glm\glm\gtx\component_wise.inl
+	<limits>
+
+1567851401 c:\users\otarie\documents\glm\glm\gtx\norm.inl
+	"../detail/qualifier.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\gtx\quaternion.inl
+	<limits>
+	"../gtc/constants.hpp"
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\engine.h
+	"Systems/GraphicEngine.h"
+	"Systems/PhysicEngine.h"
+	"Systems/ScriptEngine.h"
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\systems\graphicengine.h
+	<SFML/Graphics/RenderWindow.hpp>
+	"includes.h"
+	"Utility/Debug.h"
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\graphics\renderwindow.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/Window.hpp>
+	<string>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\graphics\export.hpp
+	<SFML/Config.hpp>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\graphics\rendertarget.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\graphics\color.hpp
+	<SFML/Graphics/Export.hpp>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\graphics\rect.hpp
+	<SFML/System/Vector2.hpp>
+	<algorithm>
+	<SFML/Graphics/Rect.inl>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\graphics\rect.inl
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\graphics\view.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\graphics\transform.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\graphics\blendmode.hpp
+	<SFML/Graphics/Export.hpp>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\graphics\renderstates.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\graphics\primitivetype.hpp
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\graphics\vertex.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\graphics\image.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+	<vector>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\window\window.hpp
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Cursor.hpp>
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\window\contextsettings.hpp
+	<SFML/Config.hpp>
+
+1539639088 c:\users\otarie\documents\sfml-2.5.1\include\sfml\window\cursor.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\window\export.hpp
+	<SFML/Config.hpp>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\window\glresource.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\window\videomode.hpp
+	<SFML/Window/Export.hpp>
+	<vector>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\window\windowhandle.hpp
+	<SFML/Config.hpp>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\window\windowstyle.hpp
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\utility\debug.h
+	"includes.h"
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\systems\physicengine.h
+	"includes.h"
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\systems\scriptengine.h
+	"includes.h"
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\entity.h
+	"Utility/Tag.h"
+	<typeindex>
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\utility\tag.h
+	"includes.h"
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\assets\material.h
+	"Assets/Program.h"
+	"Assets/Texture.h"
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\assets\program.h
+	"includes.h"
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\assets\texture.h
+	"includes.h"
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\components\audiolistener.h
+	"Components/Component.h"
+	<SFML/Audio.hpp>
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\components\component.h
+	"Utility/Debug.h"
+	"Entity.h"
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\audio.hpp
+	<SFML/System.hpp>
+	<SFML/Audio/InputSoundFile.hpp>
+	<SFML/Audio/Listener.hpp>
+	<SFML/Audio/Music.hpp>
+	<SFML/Audio/OutputSoundFile.hpp>
+	<SFML/Audio/Sound.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundBufferRecorder.hpp>
+	<SFML/Audio/SoundFileFactory.hpp>
+	<SFML/Audio/SoundFileReader.hpp>
+	<SFML/Audio/SoundFileWriter.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/Audio/SoundStream.hpp>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\audio\inputsoundfile.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<algorithm>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\audio\export.hpp
+	<SFML/Config.hpp>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\audio\listener.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Vector3.hpp>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\audio\music.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundStream.hpp>
+	<SFML/Audio/InputSoundFile.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\audio\soundstream.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Mutex.hpp>
+	<cstdlib>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\audio\soundsource.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/AlResource.hpp>
+	<SFML/System/Vector3.hpp>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\audio\alresource.hpp
+	<SFML/Audio/Export.hpp>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\audio\outputsoundfile.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<string>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\audio\sound.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Time.hpp>
+	<cstdlib>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\audio\soundbuffer.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/AlResource.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+	<set>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\audio\soundbufferrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<vector>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\audio\soundrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/AlResource.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Time.hpp>
+	<vector>
+	<string>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\audio\soundfilefactory.hpp
+	<SFML/Audio/Export.hpp>
+	<string>
+	<vector>
+	<SFML/Audio/SoundFileFactory.inl>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\audio\soundfilefactory.inl
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\audio\soundfilereader.hpp
+	<SFML/Audio/Export.hpp>
+	<string>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\audio\soundfilewriter.hpp
+	<SFML/Audio/Export.hpp>
+	<string>
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\components\transform.h
+	"Components/Component.h"
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\components\rigidbody.h
+	"Components/Component.h"
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\components\animator.h
+	"Components/Component.h"
+	"Meshes/AnimatedModel.h"
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\meshes\animatedmodel.h
+	"Assets/Mesh.h"
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\assets\mesh.h
+	"Systems/GraphicEngine.h"
+	"Assets/Material.h"
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\components\graphic.h
+	"Components/Component.h"
+	"Assets/Mesh.h"
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\components\camera.h
+	"Components/Component.h"
+	"Assets/RenderTexture.h"
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\assets\rendertexture.h
+	"Assets/Texture.h"
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\components\skybox.h
+	"Components/Component.h"
+	"Assets/Mesh.h"
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\components\script.h
+	"Components/Component.h"
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\components\light.h
+	"Components/Component.h"
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\components\cylinder.h
+	"Components/Collider.h"
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\components\collider.h
+	"Assets/PhysicMaterial.h"
+	"Components/Component.h"
+	"Physic/AABB.h"
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\assets\physicmaterial.h
+	"includes.h"
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\physic\aabb.h
+	"includes.h"
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\components\sphere.h
+	"Components/Collider.h"
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\components\cone.h
+	"Components/Collider.h"
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\components\box.h
+	"Components/Collider.h"
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\meshes\terrain.h
+	"Assets/Mesh.h"
+	"Utility/Structs.h"
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\utility\structs.h
+	"Systems/GraphicEngine.h"
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\meshes\model.h
+	"Assets/Mesh.h"
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\physic\distanceconstraint.h
+	"Physic/Constraint.h"
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\physic\constraint.h
+	"includes.h"
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\physic\contactconstraint.h
+	<functional>
+	<typeindex>
+	"Physic/Constraint.h"
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\utility\filereader.h
+	"includes.h"
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\utility\network.h
+	<SFML/Network.hpp>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\network.hpp
+	<SFML/System.hpp>
+	<SFML/Network/Ftp.hpp>
+	<SFML/Network/Http.hpp>
+	<SFML/Network/IpAddress.hpp>
+	<SFML/Network/Packet.hpp>
+	<SFML/Network/Socket.hpp>
+	<SFML/Network/SocketHandle.hpp>
+	<SFML/Network/SocketSelector.hpp>
+	<SFML/Network/TcpListener.hpp>
+	<SFML/Network/TcpSocket.hpp>
+	<SFML/Network/UdpSocket.hpp>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\network\ftp.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/Network/TcpSocket.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\network\export.hpp
+	<SFML/Config.hpp>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\network\tcpsocket.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/Network/Socket.hpp>
+	<SFML/System/Time.hpp>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\network\socket.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/Network/SocketHandle.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<vector>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\network\sockethandle.hpp
+	<SFML/Config.hpp>
+	<basetsd.h>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\network\http.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/Network/IpAddress.hpp>
+	<SFML/Network/TcpSocket.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Time.hpp>
+	<map>
+	<string>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\network\ipaddress.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/System/Time.hpp>
+	<istream>
+	<ostream>
+	<string>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\network\packet.hpp
+	<SFML/Network/Export.hpp>
+	<string>
+	<vector>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\network\socketselector.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\network\tcplistener.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/Network/Socket.hpp>
+	<SFML/Network/IpAddress.hpp>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\network\udpsocket.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/Network/Socket.hpp>
+	<SFML/Network/IpAddress.hpp>
+	<vector>
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\utility\random.h
+	<initializer_list>
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\utility\input.h
+	<bitset>
+	<SFML/Window/Event.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	"includes.h"
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\window\event.hpp
+	<SFML/Config.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\window\joystick.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/String.hpp>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\window\keyboard.hpp
+	<SFML/Window/Export.hpp>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\window\mouse.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525815618 c:\users\otarie\documents\sfml-2.5.1\include\sfml\window\sensor.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector3.hpp>
+	<SFML/System/Time.hpp>
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\utility\time.h
+
+1569468352 c:\users\otarie\documents\programs\trictrac\piece.h
+	<MinGE.h>
+
+1569468352 c:\users\otarie\documents\programs\trictrac\dice.h
+	<MinGE.h>
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\client.cpp
+	"Client.h"
+	"LocalPlayer.h"
+	"RemotePlayer.h"
+
+1569468352 c:\users\otarie\documents\programs\trictrac\client.h
+	<MinGE.h>
+	"Board.h"
+	"definitions.h"
+	<thread>
+
+1569468352 c:\users\otarie\documents\programs\trictrac\definitions.h
+
+1569468352 c:\users\otarie\documents\programs\trictrac\localplayer.h
+	"Player.h"
+
+1569468352 c:\users\otarie\documents\programs\trictrac\player.h
+	<MinGE.h>
+	"Client.h"
+
+1569468352 c:\users\otarie\documents\programs\trictrac\remoteplayer.h
+	"Player.h"
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\dice.cpp
+	"Dice.h"
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\emplacements.cpp
+	"Emplacements.h"
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\main.cpp
+	<MinGE.h>
+	"Menu.h"
+	"Dice.h"
+	"CameraScript.h"
+
+1569468717 c:\users\otarie\documents\programs\trictrac\menu.h
+	"Server.h"
+	"Client.h"
+
+1569468352 c:\users\otarie\documents\programs\trictrac\server.h
+	<MinGE.h>
+	"Board.h"
+	"definitions.h"
+	"RemoteClient.h"
+	<thread>
+
+1569468352 c:\users\otarie\documents\programs\trictrac\remoteclient.h
+	<MinGE.h>
+	"RemoteClient.h"
+
+1569468352 c:\users\otarie\documents\programs\trictrac\camerascript.h
+	<MinGE.h>
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\assets\material.cpp
+	"Assets/Material.h"
+	"Components/Light.h"
+	"Components/Camera.h"
+	"Components/Transform.h"
+	"Systems/GraphicEngine.h"
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\assets\mesh.cpp
+	"Assets/Mesh.h"
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\assets\physicmaterial.cpp
+	"PhysicMaterial.h"
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\assets\program.cpp
+	"Assets/Program.h"
+	<fstream>
+	<glm/gtc/type_ptr.hpp>
+
+1536015770 c:\users\otarie\documents\glm\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../gtc/vec1.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1536015770 c:\users\otarie\documents\glm\glm\gtc\vec1.hpp
+	"../ext/vector_bool1.hpp"
+	"../ext/vector_bool1_precision.hpp"
+	"../ext/vector_float1.hpp"
+	"../ext/vector_float1_precision.hpp"
+	"../ext/vector_double1.hpp"
+	"../ext/vector_double1_precision.hpp"
+	"../ext/vector_int1.hpp"
+	"../ext/vector_int1_precision.hpp"
+	"../ext/vector_uint1.hpp"
+	"../ext/vector_uint1_precision.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\vector_bool1.hpp
+	"../detail/type_vec1.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\vector_bool1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\vector_float1.hpp
+	"../detail/type_vec1.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\vector_float1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1567842339 c:\users\otarie\documents\glm\glm\ext\vector_double1.hpp
+	"../detail/type_vec1.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\vector_double1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\vector_int1.hpp
+	"../detail/type_vec1.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\vector_int1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\vector_uint1.hpp
+	"../detail/type_vec1.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\ext\vector_uint1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1536015770 c:\users\otarie\documents\glm\glm\gtc\type_ptr.inl
+	<cstring>
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\assets\rendertexture.cpp
+	"Assets/RenderTexture.h"
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\assets\texture.cpp
+	"Assets/Texture.h"
+	<SFML/Graphics/Image.hpp>
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\components\animator.cpp
+	"Components/Graphic.h"
+	"Components/Animator.h"
+	"Components/Transform.h"
+	"Utility/Time.h"
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\components\audiolistener.cpp
+	"Components/AudioListener.h"
+	"Components/Transform.h"
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\components\box.cpp
+	"Components/Transform.h"
+	"Components/RigidBody.h"
+	"Components/Box.h"
+	<glm/gtx/matrix_operation.hpp>
+
+1567842339 c:\users\otarie\documents\glm\glm\gtx\matrix_operation.hpp
+	"../glm.hpp"
+	"matrix_operation.inl"
+
+1539733379 c:\users\otarie\documents\glm\glm\gtx\matrix_operation.inl
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\components\camera.cpp
+	"Components/Camera.h"
+	"Components/Skybox.h"
+	"Components/Transform.h"
+	"Utility/Input.h"
+	<glm/gtx/transform.hpp>
+
+1567842339 c:\users\otarie\documents\glm\glm\gtx\transform.hpp
+	"../glm.hpp"
+	"../gtc/matrix_transform.hpp"
+	"transform.inl"
+
+1536015770 c:\users\otarie\documents\glm\glm\gtx\transform.inl
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\components\collider.cpp
+	"Components/RigidBody.h"
+	"Components/Collider.h"
+	"Systems/PhysicEngine.h"
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\components\component.cpp
+	"Components/Component.h"
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\components\cone.cpp
+	"Components/Transform.h"
+	"Components/RigidBody.h"
+	"Components/Cone.h"
+	<glm/gtx/matrix_operation.hpp>
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\components\cylinder.cpp
+	"Components/Transform.h"
+	"Components/RigidBody.h"
+	"Components/Cylinder.h"
+	<glm/gtx/matrix_operation.hpp>
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\components\graphic.cpp
+	"Components/Graphic.h"
+	"Components/Animator.h"
+	"Components/Transform.h"
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\components\light.cpp
+	"Components/Transform.h"
+	"Components/Light.h"
+	"Systems/GraphicEngine.h"
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\components\rigidbody.cpp
+	"Components\Transform.h"
+	"Components\RigidBody.h"
+	"Components\Collider.h"
+	"Systems/PhysicEngine.h"
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\components\script.cpp
+	"Components/Script.h"
+	"Systems/ScriptEngine.h"
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\components\skybox.cpp
+	"Components/Skybox.h"
+	"Components/Transform.h"
+	"Components/Camera.h"
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\components\sphere.cpp
+	"Components/Transform.h"
+	"Components/RigidBody.h"
+	"Components/Sphere.h"
+	<glm/gtx/matrix_operation.hpp>
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\components\transform.cpp
+	"Components/Transform.h"
+	"Systems/GraphicEngine.h"
+	<glm/gtx/transform.hpp>
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\engine.cpp
+	"Engine.h"
+	"Entity.h"
+	"Assets/PhysicMaterial.h"
+	"Assets/Program.h"
+	"Assets/Mesh.h"
+	"Utility/Time.h"
+	"Utility/Input.h"
+	"Utility/Debug.h"
+	"Utility/Random.h"
+	"Utility/Network.h"
+	"Components/Component.h"
+	<windows.h>
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\entity.cpp
+	"MinGE.h"
+	<cstring>
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\glew.c
+	<GL/glew.h>
+	<GL/osmesa.h>
+	<GL/eglew.h>
+	<GL/wglew.h>
+	<GL/glxew.h>
+	<stddef.h>
+	<dlfcn.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	<string.h>
+	<AvailabilityMacros.h>
+	<dlfcn.h>
+	<mach-o/dyld.h>
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\meshes\animatedmodel.cpp
+	"Meshes/AnimatedModel.h"
+	"Utility/tinyxml2.h"
+	<fstream>
+	<glm/gtx/transform.hpp>
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\utility\tinyxml2.h
+	<ctype.h>
+	<limits.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cctype>
+	<climits>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<android/log.h>
+	<assert.h>
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\meshes\model.cpp
+	"Meshes/Model.h"
+	<fstream>
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\meshes\terrain.cpp
+	"Meshes/Terrain.h"
+	<fstream>
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\physic\aabb.cpp
+	"Physic/AABB.h"
+	"Assets/Program.h"
+	"Systems/GraphicEngine.h"
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\physic\collisiondetection.cpp
+	"Physic/CollisionDetection.h"
+	"Physic/ContactConstraint.h"
+	"Components/RigidBody.h"
+	"Components/Collider.h"
+	"Components/Transform.h"
+	"Components/Sphere.h"
+	<set>
+
+1569468352 c:\users\otarie\documents\programs\trictrac\minge\physic\collisiondetection.h
+	"includes.h"
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\physic\constraint.cpp
+	"Physic/Constraint.h"
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\physic\contactconstraint.cpp
+	"Physic/ContactConstraint.h"
+	"Physic/CollisionDetection.h"
+	"Components/Transform.h"
+	"Components/RigidBody.h"
+	"Components/Collider.h"
+	"Components/Script.h"
+	"Entity.h"
+	"Components/Sphere.h"
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\physic\distanceconstraint.cpp
+	"Physic/DistanceConstraint.h"
+	"Components/RigidBody.h"
+	"Components/Transform.h"
+	"Entity.h"
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\systems\graphicengine.cpp
+	"Systems/GraphicEngine.h"
+	"Components/Graphic.h"
+	"Components/Camera.h"
+	"Components/Light.h"
+	"Physic/AABB.h"
+	"Entity.h"
+	<cstring>
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\systems\physicengine.cpp
+	"Systems/PhysicEngine.h"
+	"Components/Transform.h"
+	"Components/RigidBody.h"
+	"Components/Collider.h"
+	"Physic/Constraint.h"
+	"Physic/DistanceConstraint.h"
+	"Physic/ContactConstraint.h"
+	"Utility/Time.h"
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\systems\scriptengine.cpp
+	"Systems/ScriptEngine.h"
+	"Components/Script.h"
+	"Entity.h"
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\utility\debug.cpp
+	"Utility/Debug.h"
+	"Assets/Program.h"
+	"Systems/GraphicEngine.h"
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\utility\errors.cpp
+	"includes.h"
+	<windows.h>
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\utility\filereader.cpp
+	"Utility/FileReader.h"
+	<fstream>
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\utility\input.cpp
+	"Input.h"
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\utility\network.cpp
+	"Network.h"
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\utility\random.cpp
+	"Random.h"
+	<ctime>
+	<cstdlib>
+	<iostream>
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\utility\structs.cpp
+	"Utility/Structs.h"
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\utility\tag.cpp
+	"Tag.h"
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\utility\time.cpp
+	"Utility/Time.h"
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\minge\utility\tinyxml2.cpp
+	"tinyxml2.h"
+	<new>
+	<stddef.h>
+	<stdarg.h>
+	<cstddef>
+	<cstdarg>
+
+1569468352 source:c:\users\otarie\documents\programs\trictrac\server.cpp
+	"Server.h"
+	"RemotePlayer.h"
+
